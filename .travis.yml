@@ -1,0 +1,12 @@
+language: bash
+script: bash seed.sh
+addons:
+  apt:
+    packages:
+    - mtools
+deploy:
+  provider: releases
+  file: "partition.img.gz"
+  skip_cleanup: true
+  on:
+    tags: true
