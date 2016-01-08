@@ -6,7 +6,9 @@ addons:
     - mtools
 deploy:
   provider: releases
-  file: "partition.img.gz"
+  file: partition.img.gz
   skip_cleanup: true
   on:
     tags: true
+  api-key:
+    secure: fIXBjlFoPZ+FfZV+I0tmKw5u2MgVwNClu1/MdkwU1W0E4ojWWaBcPqtWqr3LLExCmWuKP7J0gpbHr41Hr88biSaZeh5DmVYo3Tv/Ja6AIHyYgAzZd03CH+DjoxOuqTzNyCMrVCFDQVA8oSgq4CYMyFtstcWCdsdRTey2ltEZZ/lzZ/xjdYVcuyY0Gm6ZQbkZHG2TXyjsfZJj2uid0EqRp6n9Hi6r+yq6HEuNoChGoZ4iqGFsMHytGkNyqhHy3WzI7sehCo/TFkCMFLCD6jFb0tlgG5ZAgyszy5tKEiSbMbD0QoegUKEo8FRi00Ud337mWH97JiZil6SFIozGzamUweui18DegkOoSo/rLVdoBActyfnuddMmR0hrfgePfsqSzu/LVCW1UEe5cFEvg4Grah5p36kdST0He9DBoDE2LZwIl/XGOkCd5wtYOnEjGyurPLQOGA5mnHOfnE0BFnXLHS6kjn7eRanz83xJsYIofg27KP0GtCpTU3kPIccf9ZZ4azFBH7a/lQ0lwIhEurbVWYSY0MwmZMmKdoPftY1YRTw4oJ3LteiekuTtrKavLmjWXLZNs1oW/UQYMQF/c94eWs4yx/fExw8jDthJtR8hd6LEvhqyzuY5p7P7PHSFxaUBmW9kKajPMmX76ZmP3UaYURlC17vrzY5PNq+wNoSCeW4=
