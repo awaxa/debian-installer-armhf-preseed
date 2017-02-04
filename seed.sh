@@ -2,7 +2,7 @@
 
 set -evx
 
-SOURCE='http://ftp.us.debian.org/debian/dists/jessie/main/installer-armhf/current/images/netboot/SD-card-images/partition.img.gz'
+SOURCE='http://ftp.us.debian.org/debian/dists/stretch/main/installer-armhf/current/images/netboot/SD-card-images/partition.img.gz'
 
 wget --output-document=- "$SOURCE" | zcat > partition.img
 mcopy -i partition.img ::initrd.gz initrd.gz
